@@ -1,3 +1,1 @@
-logging:
-  level:
-    org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: WARN
+http.mappers.jsonPrettyPrint: true
