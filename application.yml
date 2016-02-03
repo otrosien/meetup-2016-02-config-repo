@@ -1,4 +1,11 @@
+# beautify json
 spring:
   jackson:
     serialization:
       INDENT_OUTPUT: true
+
+# disable health check against config-server
+health:
+  config:
+    enabled: false
+  
