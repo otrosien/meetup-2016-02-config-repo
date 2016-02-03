@@ -1,1 +1,4 @@
-http.mappers.jsonPrettyPrint: true
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
