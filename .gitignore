@@ -1,0 +1,7 @@
+build/
+bin/
+.*
+gradle.properties
+*.iml
+_ajdump
+lib/*.jar
