@@ -8,4 +8,11 @@ spring:
 health:
   config:
     enabled: false
-  
+
+logging:
+  pattern:
+    console: "%d{ABSOLUTE} %5p - %m%n"
+
+logging.level.root: WARN
+logging.level.org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer: INFO
+logging.level.com.epages: INFO
